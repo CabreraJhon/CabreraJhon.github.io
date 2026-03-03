@@ -1,6 +1,6 @@
 # Jhon Cabrera
 
-Ingeniero de Datos Senior / Arquitecto de Datos enfocado en Azure y ecosistemas Lakehouse. Diseño e implemento plataformas de datos end-to-end: ingesta, modelado, gobierno, observabilidad y analítica.
+Ingeniero de Datos enfocado en Azure y ecosistemas Lakehouse. Diseño e implemento plataformas de datos end-to-end: ingesta, modelado, gobierno, observabilidad y analítica.
 
 Sitio / Portafolio: https://cabrerajhon.github.io/  
 LinkedIn: https://www.linkedin.com/in/jhonjairoCabrera  
