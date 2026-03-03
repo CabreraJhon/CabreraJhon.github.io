@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quizzes | DP-700 (Microsoft Fabric) - Jhon Cabrera</title>
+  <meta name="description" content="Cuestionarios de estudio DP-700 (Microsoft Fabric Data Engineer)." />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; background: #0b1220; color: #e6e8ee; }
+    a { color: #7dd3fc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 48px 20px; }
+    .card { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.10); border-radius: 16px; padding: 24px; }
+    h1 { margin: 0 0 8px; font-size: 34px; }
+    p { margin: 10px 0; color: #cbd5e1; }
+    .top { display:flex; justify-content:space-between; gap:12px; align-items:center; margin-bottom:14px;}
+    .btn { display:inline-block; padding: 10px 14px; border-radius: 10px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.16); }
+    .muted { color:#94a3b8; font-size: 13px; }
+    .grid { display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 14px;}
+    @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+    .qcard { background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.10); border-radius: 14px; padding: 16px;}
+    .qcard h2 { margin: 0 0 6px; font-size: 16px;}
+    .qcard ul { margin: 8px 0 0 18px; color:#cbd5e1; }
+    .tag { display:inline-block; padding: 4px 8px; border-radius: 999px; background: rgba(125,211,252,.12); border: 1px solid rgba(125,211,252,.25); font-size: 12px; color:#cbd5e1; }
+    code { background: rgba(255,255,255,.08); padding: 2px 6px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <a class="btn" href="./index.html">← Volver</a>
+      <a class="btn" href="./blog.html">Ir al Blog →</a>
+    </div>
+
+    <div class="card">
+      <h1>Quizzes – DP-700</h1>
+      <p class="muted">
+        Modo estudio: preguntas para practicar conceptos. (No son preguntas oficiales del examen).
+      </p>
+
+      <div class="grid">
+        <div class="qcard">
+          <h2>Quiz 01 – Fundamentos de Lakehouse</h2>
+          <span class="tag">Próximamente</span>
+          <ul>
+            <li>Lakehouse vs Warehouse</li>
+            <li>Capas (Bronze/Silver/Gold)</li>
+            <li>Formatos y particionamiento</li>
+          </ul>
+        </div>
+
+        <div class="qcard">
+          <h2>Quiz 02 – Ingesta y orquestación</h2>
+          <span class="tag">Próximamente</span>
+          <ul>
+            <li>Batch vs incremental</li>
+            <li>Idempotencia</li>
+            <li>Observabilidad</li>
+          </ul>
+        </div>
+
+        <div class="qcard">
+          <h2>Quiz 03 – Transformación y modelado</h2>
+          <span class="tag">Próximamente</span>
+          <ul>
+            <li>Dataframes / SQL</li>
+            <li>Modelo estrella</li>
+            <li>Buenas prácticas</li>
+          </ul>
+        </div>
+
+        <div class="qcard">
+          <h2>Quiz 04 – Seguridad, gobierno y performance</h2>
+          <span class="tag">Próximamente</span>
+          <ul>
+            <li>Roles y permisos</li>
+            <li>Gobierno / catálogo</li>
+            <li>Optimización y costos</li>
+          </ul>
+        </div>
+      </div>
+
+      <p style="margin-top:18px;" class="muted">
+        Siguiente paso: si quieres, armamos el primer quiz real en estático usando un archivo JSON (preguntas + opciones) y un script JS que califique.
+        Quedaría todo en GitHub Pages sin backend.
+      </p>
+
+      <p class="muted">
+        Estructura sugerida: <code>/quizzes/</code> + <code>/static/quizzes/*.json</code> (cuando migremos a Docusaurus).
+      </p>
+    </div>
+  </div>
+</body>
+</html>
